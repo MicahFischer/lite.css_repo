@@ -3,7 +3,7 @@
 * {
     font-family: 'Oxygen', Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0;  
 }
 
 .banner {
@@ -114,7 +114,7 @@
     margin: 0 auto;
 }
 
-.content {
+.plain_card {
     padding: 20px;
     background: white;
     box-sizing: border-box;
@@ -133,6 +133,24 @@
     box-sizing: border-box;
     margin: 12px;
     border-radius: 4px;
+}
+
+.light_card {
+    padding: 20px;
+    background: rgb(243, 243, 243);
+    box-sizing: border-box;
+    margin: 12px;
+    border-radius: 4px;
+    color: rgb(41, 41, 41);
+}
+
+.dark_card {
+    padding: 20px;
+    background: rgb(41, 41, 41);
+    box-sizing: border-box;
+    margin: 12px;
+    border-radius: 4px;
+    color: rgb(243, 243, 243);
 }
 
 .hoverable {
@@ -274,80 +292,243 @@ blockquote {
     background: rgb(128, 128, 128);
 }
 
+a.bc_grey:hover {
+    background: rgb(41, 41, 41);
+}
+
+.bc_lightred {
+    background: rgb(224, 75, 87);
+}
+
+a.bc_lightred:hover {
+    background: rgb(219, 27, 43);
+}
+
+.bc_lightorange {
+    background: rgb(236, 140, 116);
+}
+
+a.bc_lightorange:hover {
+    background: rgb(224, 90, 57);
+}
+
+.bc_lightyellow {
+    background: rgb(230, 213, 118);
+}
+
+a.bc_lightyellow:hover {
+    background: rgb(223, 191, 10);
+}
+
+.bc_lightgreen {
+    background: rgb(178, 231, 134);
+}
+
+a.bc_lightgreen:hover {
+    background: rgb(95, 190, 16);
+}
+
+.bc_lightblue {
+    background: rgb(103, 145, 224);
+}
+
+a.bc_lightblue:hover {
+    background: rgb(22, 155, 207);
+}
+
+.bc_lightpurple {
+    background: rgb(133, 94, 224);
+}
+
+a.bc_lightpurple:hover {
+    background: rgb(77, 22, 207);
+}
+
+.bc_lightviolet {
+    background: rgb(216, 109, 216);
+}
+
+a.bc_lightviolet:hover {
+    background: rgb(175, 31, 175);
+}
+
+.bc_lightgrey {
+    background: rgb(243, 243, 243);
+}
+
+a.bc_lightgrey:hover {
+    background: rgb(41, 41, 41);
+}
+
+.bc_darkgrey {
+    background: rgb(41, 41, 41);
+}
+
+a.bc_darkgrey:hover {
+    background: rgb(243, 243, 243);
+}
+
 /* FONT COLORS */
 
 .fc_red {
     color: rgb(219, 27, 43);
 }
 
+a.fc_red:hover {
+    color: rgb(41, 41, 41);
+}
+
 .fc_orange {
     color: rgb(224, 90, 57);
+}
+
+a.fc_orange:hover {
+    color: rgb(41, 41, 41);
 }
 
 .fc_yellow {
     color: rgb(223, 191, 10);
 }
 
+a.fc_yellow:hover {
+    color: rgb(41, 41, 41);
+}
+
 .fc_green {
     color: rgb(95, 190, 16);
+}
+
+a.fc_green:hover {
+    color: rgb(41, 41, 41);
 }
 
 .fc_blue {
     color: rgb(22, 155, 207);
 }
 
+a.fc_blue:hover {
+    color: rgb(41, 41, 41);
+}
+
 .fc_purple {
     color: rgb(77, 22, 207);
+}
+
+a.fc_purple:hover {
+    color: rgb(41, 41, 41);
 }
 
 .fc_violet {
     color: rgb(175, 31, 175);
 }
 
+a.fc_violet:hover {
+    color: rgb(41, 41, 41);
+}
+
 .fc_grey {
     color: rgb(128, 128, 128);
 }
 
-.fc_white {
+a.fc_grey:hover {
+    color: rgb(41, 41, 41);
+}
+
+.fc_lightgrey {
     color: rgb(255, 255, 255);
 }
 
-.fc_black {
-    color: rgb(0, 0, 0);
+a.fc_lightgrey:hover {
+    color: rgb(41, 41, 41);
 }
 
 .fc_lightred {
-    color: rgb(219, 27, 43);
+    color: rgb(224, 75, 87);
+}
+
+a.fc_lightred:hover {
+    color: rgb(41, 41, 41);
 }
 
 .fc_lightorange {
     color: rgb(236, 140, 116);
 }
 
+a.fc_lightorange:hover {
+    color: rgb(41, 41, 41);
+}
+
 .fc_lightyellow {
     color: rgb(230, 213, 118);
+}
+
+a.fc_lightyellow:hover {
+    color: rgb(41, 41, 41);
 }
 
 .fc_lightgreen {
     color: rgb(178, 231, 134);
 }
 
+a.fc_lightgreen:hover {
+    color: rgb(41, 41, 41);
+}
+
 .fc_lightblue {
     color: rgb(103, 145, 224);
+}
+
+a.fc_lightblue:hover {
+    color: rgb(41, 41, 41);
 }
 
 .fc_lightpurple {
     color: rgb(133, 94, 224);
 }
 
+a.fc_lightpurple:hover {
+    color: rgb(41, 41, 41);
+}
+
 .fc_lightviolet {
     color: rgb(216, 109, 216);
 }
 
+a.fc_lightviolet:hover {
+    color: rgb(41, 41, 41);
+}
+
 .fc_lightgrey {
-    color: rgb(200, 200, 2000);
+    color: rgb(243, 243, 243);
+}
+
+a.fc_lightgrey:hover {
+    color: rgb(41, 41, 41);
 }
 
 .fc_darkgrey {
     color: rgb(41, 41, 41);
 }
+
+a.fc_darkgrey:hover {
+    color: rgb(243, 243, 243);
+}
+
+/* BUTTON STYLES */
+
+.button {
+    display: inline-block;
+    padding: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-sizing: border-box;
+    margin: 12px 0;
+    border-radius: 4px;
+}
+
+/* CONTAINER COLLAPSE FIX */
+
+.clearfix:after {
+    content: "";
+    display: table; 
+    clear: both; 
+  }

@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="lite.css">
 </head>
 
-<body>
+<body class="bc_purple">
     <div class="banner sticky bc_orange">
         <div class="nav">
             <div class="logo">
@@ -44,7 +44,9 @@
                     <h6>H6 heading</h6>
                     <div class="sm_break"></div>
                     <h2 class="underline">Paragraphs, Links, Abbreviations, & Addresses</h2>
-                    <p>Paragraph lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis sapiente itaque nihil autem suscipit porro laborum, quibusdam quo id exercitationem? Voluptates, modi autem. Doloribus deleniti incidunt vel libero, assumenda consequuntur!</p>
+                    <p>Paragraph lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis sapiente itaque nihil
+                        autem suscipit porro laborum, quibusdam quo id exercitationem? Voluptates, modi autem.
+                        Doloribus deleniti incidunt vel libero, assumenda consequuntur!</p>
                     <a href="#">This is a Link.</a>
                     <p>
                         This is an <abbr title="Abbreviation ">abbr</abbr>.
@@ -55,23 +57,31 @@
                 </div>
                 <h1>Content Boxes</h1>
                 <div class="row">
-                    <div class="content nopadding span3">
-                        <h4>None</h4>
-                        <p>This is a content box with the class content and nopadding.</p>
+                    <div class="plain_card span4">
+                        <h4>Plain Card</h4>
+                        <p>This is a content box with the class plain_card. The class nopadding can be used to remove
+                            padding.</p>
                     </div>
-                    <div class="content span3">
-                        <h4>None</h4>
-                        <p>This is a content box with the class content.</p>
+                    <div class="light_card span4">
+                        <h4>Light Card</h4>
+                        <p>This is a content box with the class light_card.</p>
                     </div>
-                    <div class="card span3">
+                    <div class="dark_card span4">
+                        <h4>Dark Card</h4>
+                        <p>This is a content box with the class dark_card.</p>
+                    </div>
+                </div>
+                <div class="sm_break"></div>
+                <div class="row">
+                    <div class="card span4">
                         <h4>Card</h4>
                         <p>This is a content box with the class card.</p>
                     </div>
-                    <div class="card hoverable span3">
-                        <h4>Card</h4>
+                    <div class="card hoverable span4">
+                        <h4>Hoverable Card</h4>
                         <p>This is a hoverable content box with the class card.</p>
                     </div>
-                    <div class="well span3">
+                    <div class="well span4">
                         <h4>Well</h4>
                         <p>This is a content box with the class well.</p>
                     </div>
@@ -184,37 +194,37 @@
 
                 <h5>Background Colors</h5>
                 <div class="row">
-                    <div class="card span3 bc_red fc_white">
+                    <div class="card span3 bc_red fc_lightgrey">
                         <h4>Card</h4>
                         <p>This is a content box with the class card.</p>
                     </div>
-                    <div class="card span3 bc_orange fc_black">
+                    <div class="card span3 bc_orange">
                         <h4>Card</h4>
                         <p>This is a content box with the class card.</p>
                     </div>
-                    <div class="card span3 bc_yellow fc_black">
+                    <div class="card span3 bc_yellow">
                         <h4>Card</h4>
                         <p>This is a content box with the class card.</p>
                     </div>
-                    <div class="card span3 bc_green fc_black">
+                    <div class="card span3 bc_green">
                         <h4>Card</h4>
                         <p>This is a content box with the class card.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="card span3 bc_blue fc_white">
+                    <div class="card span3 bc_blue fc_lightgrey">
                         <h4>Card</h4>
                         <p>This is a content box with the class card.</p>
                     </div>
-                    <div class="card span3 bc_violet fc_white">
+                    <div class="card span3 bc_violet fc_lightgrey">
                         <h4>Card</h4>
                         <p>This is a content box with the class card.</p>
                     </div>
-                    <div class="card span3 bc_purple fc_white">
+                    <div class="card span3 bc_purple fc_lightgrey">
                         <h4>Card</h4>
                         <p>This is a content box with the class card.</p>
                     </div>
-                    <div class="card span3 bc_grey fc_white">
+                    <div class="card span3 bc_grey fc_lightgrey">
                         <h4>Card</h4>
                         <p>This is a content box with the class card.</p>
                     </div>
@@ -222,12 +232,93 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="card span12">
+                <h1>Buttons</h1>
+                <div class="well">
+                    <h2 class="underline">Stylize Buttons</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia blanditiis nobis harum rerum
+                        dolores similique quisquam quis, enim officia sit explicabo nemo laborum velit praesentium
+                        dicta illo veniam, suscipit qui.</p>
+                    <h6>Dark Backgrounds</h6>
+                    <div class="row clearfix">
+                        <div class="span3 plain_card">
+                            <h6>Plain Button No Styles</h6>
+                            <a class="button">Click the Button</a> 
+                        </div>
+                        <div class="span3 plain_card">
+                            <h6>Plain Button Hoverable</h6>
+                            <a class="button hoverable">Click the Button</a> 
+                        </div>
+                        <div class="span3 plain_card">
+                            <h6>Dark Grey Button Hoverable</h6>
+                            <a class="button hoverable bc_darkgrey fc_lightgrey">Click the Button</a>
+                        </div>
+                        <div class="span3 plain_card">
+                                <h6>Dark Grey Button Hoverable</h6>
+                                <a class="button hoverable bc_lightgrey fc_darkgrey">Click the Button</a>
+                            </div>
+                        <div class="span3 plain_card">
+                            <h6>Light Red Button Hoverable</h6>
+                            <a class="button hoverable bc_darkgrey fc_lightred">Click the Button</a> 
+                        </div>
+                        <div class="span3 plain_card">
+                            <h6>Dark Grey Button Hoverable</h6>
+                            <a class="button hoverable bc_darkgrey fc_lightorange">Click the Button</a> 
+                        </div>
+                        <div class="span3 plain_card">
+                            <h6>Light Red Button Hoverable</h6>
+                            <a class="button hoverable bc_darkgrey fc_lightyellow">Click the Button</a> 
+                        </div>
+                        <div class="span3 plain_card">
+                                <h6>Light Red Button Hoverable</h6>
+                                <a class="button hoverable bc_darkgrey fc_lightgreen">Click the Button</a> 
+                            </div>
+                            <div class="span3 plain_card">
+                                <h6>Dark Grey Button Hoverable</h6>
+                                <a class="button hoverable bc_darkgrey fc_lightblue">Click the Button</a> 
+                            </div>
+                            <div class="span3 plain_card">
+                                    <h6>Light Red Button Hoverable</h6>
+                                    <a class="button hoverable bc_darkgrey fc_lightviolet">Click the Button</a>
+                                </div>
+                            <div class="span3 plain_card">
+                                <h6>Light Red Button Hoverable</h6>
+                                <a class="button hoverable bc_darkgrey fc_lightpurple">Click the Button</a> 
+                            </div>
+                            <div class="span3 plain_card">
+                                    <h6>Light Red Button Hoverable</h6>
+                                    <a class="button hoverable bc_lightviolet fc_darkgrey">Click the Button</a>
+                                </div>
+                                <div class="span3 plain_card">
+                                        <h6>Light Red Button Hoverable</h6>
+                                        <a class="button hoverable bc_lightpurple fc_darkgrey">Click the Button</a>
+                                    </div>
+                                    <div class="span3 plain_card">
+                                            <h6>Light Red Button Hoverable</h6>
+                                            <a class="button hoverable bc_lightblue fc_darkgrey">Click the Button</a>
+                                        </div>
+                                        <div class="span3 plain_card">
+                                                <h6>Light Red Button Hoverable</h6>
+                                                <a class="button hoverable bc_lightgreen fc_darkgrey">Click the Button</a>
+                                            </div>
+                                            <div class="span3 plain_card">
+                                                    <h6>Light Red Button Hoverable</h6>
+                                                    <a class="button hoverable bc_lightyellow fc_darkgrey">Click the Button</a>
+                                                </div>
+                                                <div class="span3 plain_card">
+                                                        <h6>Light Red Button Hoverable</h6>
+                                                        <a class="button hoverable bc_lightorange fc_darkgrey">Click the Button</a>
+                                                    </div>
+                                                    <div class="span3 plain_card">
+                                                            <h6>Light Red Button Hoverable</h6>
+                                                            <a class="button hoverable bc_lightred fc_darkgrey">Click the Button</a>
+                                                        </div>
+                    </div>
+                </div>
 
-
-
-
-
-    </div>
+            </div>
+        </div>
 </body>
 
 </html>
